@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class="fade nonumbers" manifest="moosecon.manifest">
+<!-- 
+  ^ You can control a few things with the <html> element's classes:
+
+  "fade"      - smooth fade between slides
+  "nonumbers" - remove the slide numbering after the progress bar
+-->
+
+<head>
+  <title>Firefox BM Test Day</title>
+  <!-- 
+    ^ Don't forget a good title - they show up as bookmarks and in Google 
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1274, user-scalable=no">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    /* Add your own styles here */
+    .talkdescription {
+      font-size: 12px;
+      color: #fff;
+      width: 80%;
+    }
+    .full .talkdescription {
+      display: none;
+    }
+    .slide blockquote.lots {
+      font-size: 30px;
+    }
+    .demourl { 
+      bottom: 20px;
+    }
+    .quotesource::before {
+      content: '~';
+    }
+    #reveal {
+      float: right;
+      margin: 20px 0 0 20px;
+      background: #fff;
+      position: relative;
+    }
+    #reveal img {
+      width: 200px;
+      z-index: 5;
+      display: block;
+      opacity: 0.5;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -o-transition: 2s;
+      transition: 2s;
+    }
+    #reveal:hover img {
+      opacity: 1;
+    }
+    .full #recycle h2 {
+      margin-top: -40px;
+    }
+    ul.lots li {
+      float: left;
+      width: 50%;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Firefox BM Test Day</h1>
+    <p class="footer">Mozilla Malaysia Community, <a href="http://twitter.com/mozillamy">@mozilla.my</a></p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate.</p>
+  </aside>
+
+<!-- 
+  The following is a slide, it needs a class of "slide" and it doesn't 
+  hurt to keep the right semantic elements in there, too.
+  IMPORTANT: each slide needs its own unique ID - this will become its
+  URL and this is how this slide system works!
+-->
+
+  <div id="cover" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Introduction</h2>
+      </header>
+      <img src="pictures/mozilla_wordmark_300dpi.jpg" alt="Mozilla" class="middle">
+      <small class="byline">
+        Firefox BM Test Day 2014, Universiti Teknologi Malaysia, Johor Bahru 16/03/2014 
+      </small>
+    <footer class="notes">
+      In this talk I will give some background on the Mozilla community, and show the opportunities and how to contribute to Mozilla.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="fifteen" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>15 Years of Mozilla</h2>
+      </header>
+      <img src="pictures/moz15_email_oneoff_500x300.jpg" alt="15 Years" class="middle shadow">
+    <footer class="notes">
+      The Mozilla project was launched on March 31, 1998 when the source code was opened up. Community was built-in from the start.
+      The community grew organically, but we can no longer take that for granted.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="builders" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Mozilla Malaysia Community</h2>
+      </header>
+      <img src="pictures/NEO_7045.jpg" alt="Builders" class="middle shadow">
+    <footer class="notes">
+      Being founded on July 2011 as small community in Kuala Lumpur. Hence, we are prioritising community building in the organisation. A core group across all functional areas has been formed.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="who" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Community Infographic</h2>
+      </header>
+      <img src="pictures/infographic_5.jpg" alt="Who" class="middle shadow">
+    <footer class="notes">
+      Our community is made up of a number of groups, ranging from core contributors to users.
+    </footer>
+    </section>
+  </div></div>
+
+ <div id="event" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Firefox BM Test Day 2014</h2>
+      </header>
+      <img src="pictures/testday.jpg" height="350" class="middle shadow">
+    <footer class="notes">
+      focusing more on user experiences and gaining feedback regarding a project that the Community is currently working on known as  “Projek Firefox Bahasa Malaysia” or Firefox Bahasa Malaysia Project, thus collecting data for the betterment of the project. Our objective is to have less misunderstanding in localized words in every localized product of Mozilla. 
+    </footer>
+    </section>
+  </div></div>
+
+   <div id="localization" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>What is Mozilla Localization?</h2>
+      </header>
+      <img src="pictures/l10n.jpg" height="350" class="middle shadow">
+    <footer class="notes">
+     The objective of Mozilla Localization (L10n) is to improve the world by  culturally  adapting Mozilla products by region and locale thus offering  them to  users throughout the world. By doing so, we  create  a world where the open web exists beyond linguistic, cultural,  and  geographical boundaries. 
+    </footer>
+    </section>
+  </div></div>
+
+    <div id="projek" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Firefox Bahasa Malaysia??</h2>
+      </header>
+      <img src="pictures/firefoxbm.jpg" class="middle shadow">
+    <footer class="notes">
+     Projek Firefox Bahasa Malaysia is an initiative of local Mozilla Community or Mozilla Malaysia Community. Our aim is to enable non-english speakers to use Mozilla Firefox Web Browser for their daily use. Specifically, we are targeting Mozilla Products in Bahasa Malaysia. In the future, we also target to localize to other Mozilla Products such Firefox for Android, Firefox OS phone and more. We believed this initiative following our principal mission, is to promote openness, innovation & opportunity on the Web. 
+
+    </footer>
+    </section>
+  </div></div>
+
+   <div id="feedback" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>TEST PILOT - Firefox BM (BETA)</h2>
+      </header>
+      <img src="pictures/firefoxbetafeedback.jpg" class="middle shadow">
+      <footer class="notes">
+        DEMO
+      </footer>
+    </section>
+  </div></div>
+
+    <div id="feedbacks" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Firefox OS Phone BM (BETA)</h2>
+      </header>
+      <img src="pictures/firefoxosfeedback.jpg" class="middle shadow">
+      <footer class="notes">
+        DEMO
+      </footer>
+    </section>
+  </div></div>
+
+   <div id="ride" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>The web ride is far from over!</h2>
+      </header>
+      <img src="pictures/ride.gif" 
+           alt="There is no earthly way of knowing which direction we are going" 
+           height="450"
+           class="middle">
+      <footer class="notes">
+        Working with Mozilla is sometimes a wild ride. The web is an existing, world-wide distribution platform and reaches millions of people already with many more to come. You have an opportunity to have a direct impact on millions of people.
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="thanks" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Thanks for joining us!</h2>
+      </header>
+        <img src="pictures/thanks.jpg"
+             width="600" 
+             alt="that's all firefox">
+        </figure>
+      <ul class="oneline demourl">
+        <li>Mozilla Malaysia Community</li>
+        <li><a href="http://twitter.com/mozillamy">@MozillaMy</a></li>
+        <li><a href="http://mozilla.my">
+          http://mozilla.my
+        </a></li>
+      </ul>
+    </section>
+  </div></div>
+
+
+
+  <!-- <div class="progress"><div></div></div> -->
+  <!-- 
+    ^ don't like a progress bar? just delete this DIV
+  -->
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
